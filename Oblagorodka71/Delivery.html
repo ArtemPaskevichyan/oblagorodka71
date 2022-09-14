@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<link rel="stylesheet" type="text/css" href="static/iconStyles.css">
+
+	<title>Доставка</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header__logo"><img src="static/imgs/logo.png" alt=""></div>
+		<div class="header__navigation">
+			<a class="header__link" href="/index.html">О нас</a>
+			<a class="header__link " href="/Services.html">Услуги</a>
+			<a class="header__link" href="/Works.html">Наши работы</a>
+			<a class="header__link active" href="/Delivery.html">Доставка</a>
+			<a class="header__link" href="/Contacts.html">Контакты</a>
+		</div>
+		<div class="header__side"></div>
+	</div>
+
+	<div class="content">
+		<div class="deliveryBlock rightLines">
+			<div id="map" class="deliveryBlock__imageContainer">
+				<img src="static/imgs/map.png">
+			</div>
+			<div class="deliveryBlock__info">
+				<div class="deliveryBlock__title">Стоимость доставки в пределах области:</div>
+
+				<div class="deliveryBlock__priceList">
+					<span class="deliveryBlock__price priceGreen">Газон под ключ (от 10 соток) - бесплатно<br>
+					Другие услуги - цена договорная</span>
+					<span class="deliveryBlock__price priceYellow">Цена договорная</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script>
+	const scrollElement = document.getElementById("map");
+	scrollElement.scrollTop = scrollElement.children[0].offsetHeight / 3;
+	scrollElement.scrollLeft = scrollElement.children[0].offsetWidth / 3;
+</script>
+</html>

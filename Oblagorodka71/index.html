@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<link rel="stylesheet" type="text/css" href="static/iconStyles.css">
+
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym(89860750, "init", {
+	        clickmap:true,
+	        trackLinks:true,
+	        accurateTrackBounce:true,
+	        webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/89860750" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+	<title>Доставка</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header__logo"><img src="static/imgs/logo.png" alt=""></div>
+		<div class="header__navigation">
+			<a class="header__link active" href="/index.html">О нас</a>
+			<a class="header__link" href="/Services.html">Услуги</a>
+			<a class="header__link" href="/Works.html">Наши работы</a>
+			<a class="header__link" href="/Delivery.html">Доставка</a>
+			<a class="header__link" href="/Contacts.html">Контакты</a>
+		</div>
+		<div class="header__side"></div>
+	</div>
+
+	<div class="content">
+		<div class="technicBlock rightLines">
+			<div class="contactsBlock__title">О нас</div>
+			<div class="contactsBlock__text fullWidth">
+				Мы рады приветствовать Вас на нашем официальном сайте!<br><br>
+				oblogorodka71 уже 5 лет осуществляет посев газона под ключ, предоставляет услуги по вспашке земельного участка, культивации земли, фрезеровке, разработке целины. Работаем на японском гусеничном тракторе.
+				Благодаря успешной практике беремся за выполнение заказов разной сложности и срочности. К каждому заказу подход индивидуален.<br><br>
+				Для расчета стоимости работ на Вашем участке обращайтесь по <a class="" href="/Contacts.html">телефону</a>
+			</div>
+		</div>
+
+		<div class="technicBlock rightLines">
+			<div class="contactsBlock__title">Техника</div>
+			<div class="contactsBlock__text fullWidth">
+				А вот и наши главные помощники. Минитрактор Yanmar AC 21 и Iseki TPC 183. Данная техника помогает выполнять нам самые трудные виды работы по подготовке участка под посев, вспашке и фрезеровке в самые короткие сроки. Теперь немного о каждом.
+			</div>
+
+			<div style="height: 20px"></div>
+			<div class="technicBlock__content">
+				<span class="technicBlock__imageHolder">
+					<img src="static/imgs/machine.jpeg" alt="">
+				</span>
+				<span class="technicBlock__text">
+					Минитрактор Yanmar помогает подготовить неровный, ухабистый участок к посеву газона. Он отлично справляется с выравниванием территории и даже вспашкой.
+				</span>
+			</div>
+
+			<div style="height: 20px"></div>
+			<div class="technicBlock__content">
+				<span class="technicBlock__imageHolder">
+					<img src="static/imgs/machine2.jpeg" alt="">
+				</span>
+				<span class="technicBlock__text">
+					Iseki является нашим основным "пахарем". С помощью него мы выполняем работы по вспашке и фрезеровке почвы.
+					Весь сезон эти помощники помогают нам радовать Вас - наших клиентов.
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<button id="scrollButton" class="scrollButton" onclick="scrollToTop()"><i class="icon-arrowUp"></i></button>
+</body>
+<script>
+	const topButton = document.getElementById("scrollButton")
+	window.onscroll = function() {
+		if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+			topButton.classList.add('active')
+		} else {
+			topButton.classList.remove('active')
+		}
+	}
+
+	function scrollToTop() {
+		document.body.scrollTop = 0
+  		document.documentElement.scrollTop = 0
+	}
+</script>
+</html>

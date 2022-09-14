@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'finprobaIconPack';
+  src:  url('fonts/finprobaIconPack.eot?t75kop');
+  src:  url('fonts/finprobaIconPack.eot?t75kop#iefix') format('embedded-opentype'),
+    url('fonts/finprobaIconPack.ttf?t75kop') format('truetype'),
+    url('fonts/finprobaIconPack.woff?t75kop') format('woff'),
+    url('fonts/finprobaIconPack.svg?t75kop#finprobaIconPack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'finprobaIconPack' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrowDown:before {
+  content: "\e901";
+}
+.icon-arrowLeft:before {
+  content: "\e902";
+}
+.icon-arrowRigth:before {
+  content: "\e903";
+}
+.icon-arrowUp:before {
+  content: "\e904";
+}
+.icon-cross:before {
+  content: "\e906";
+}
